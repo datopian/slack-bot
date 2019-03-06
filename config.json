@@ -1,0 +1,43 @@
+{
+  "docs": {
+      "gdocDatopian": {
+          "fun": "sendMessage",
+          "dest": "1Nq1Az-Njc_9vxoPT8aSz51-35nfkjZ77CwzSTupj6B4",
+          "room": "Datopian"
+      }
+  },
+  "monitor": {
+      "+todo": {
+          "action": "log",
+          "dest": ["gdocDatopian"]
+      },
+      "+standup": {
+          "action": "log",
+          "dest": ["gdocDatopian"]
+      },
+      "+example": {
+          "action": "log",
+          "dest": ["gdocDatopian"]
+      },
+      "+link": {
+          "action": "log",
+          "dest": ["gdocDatopian"]
+      },
+      "+integrity": {
+          "action": "log",
+          "dest": ["gdocDatopian"]
+      },
+      "+promise": {
+          "action": "log",
+          "dest": ["gdocDatopian"]
+      },
+      "+outcome": {
+          "action": "log",
+          "dest": ["gdocDatopian"]
+      },
+      "+feedback": {
+          "action": "log",
+          "dest": ["gdocDatopian"]
+      }
+  }
+}
